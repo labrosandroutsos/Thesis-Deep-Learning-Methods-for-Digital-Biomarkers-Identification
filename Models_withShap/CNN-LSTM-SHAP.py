@@ -175,7 +175,7 @@ def model_cnnlstm(length, features):
     return model
 
 
-importance = pd.read_csv("../input/uci-har-features/importance.csv")
+importance = pd.read_csv("../importance.csv")
 
 num_of_top_features = [562, 200, 150, 100, 75, 50, 40, 30, 20, 10]
 loss_features = []
